@@ -9,8 +9,8 @@ revolte:
     staging:
       branch: staging
       codeReview: false
-      codeQuality: true
-      testSuite: true
+      codeQuality: false
+      testSuite: false
       services:
         rid_1:
           type: WEB_SERVICE
@@ -69,8 +69,8 @@ revolte:
                 max: 1
     preview:
       codeReview: false
-      codeQuality: false
-      testSuite: false
+      codeQuality: true
+      testSuite: true
       services:
         rid_1:
           type: WEB_SERVICE
